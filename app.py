@@ -6,7 +6,7 @@ import numpy as np
 model = joblib.load("trained_model.pkl")
 
 
-st.set_page_config(page_title="Blast-Furnace Failure Predictor", page_icon="🔥", layout="centered")
+st.set_page_config(page_title="Blast-Furnace Failure Predictor", page_icon="", layout="centered")
 st.title("Predictive Maintenance for Blast-Furnace Stoves")
 st.markdown("AI model to **predict failure risk within the next 24 hours** based on sensor readings.")
 
